@@ -4,9 +4,9 @@ name: testing
 
 on:
   push:
-    branches: [ actions_test ]
-#  pull_request:
-#    branches: [ main ]
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 #  release:
 #    types: [created, edited, published]
 
